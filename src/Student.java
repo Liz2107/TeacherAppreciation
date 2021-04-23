@@ -1,7 +1,7 @@
 
 public class Student 
 {
-	protected String name;
+	private String name;
 	public Student(String n)
 	{
 		name = n;
