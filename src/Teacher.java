@@ -1,10 +1,10 @@
 import java.util.ArrayList;
 public class Teacher 
 {
-	protected String name;
-	protected ArrayList<String> subjects;
-	protected ArrayList<Student> currentStudents;
-	protected int awesomeFactor;
+	private String name;
+	private ArrayList<String> subjects;
+	private ArrayList<Student> currentStudents;
+	private int awesomeFactor;
 	public Teacher(String n, ArrayList<String> s, ArrayList<Student> st, int a)
 	{
 		name = n;

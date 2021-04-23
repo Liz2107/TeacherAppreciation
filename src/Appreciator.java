@@ -8,8 +8,8 @@ public class Appreciator
 		students.add(new Student("Liz"));
 		ArrayList<String> teacherSubjects = new ArrayList<String>();
 		teacherSubjects.add("Java");
-		teacherSubjects.add("AP CS");
 		teacherSubjects.add("Web App Development");
+		teacherSubjects.add("AP CS");
 		Teacher mrMcGuire = new Teacher("Mr. McGuire", teacherSubjects, students, 0);
 		for(String s : teacherSubjects)
 		{
